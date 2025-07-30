@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <meta name="description" content="A simple store app powered by Fake Store API"/>
+  <title>Store App</title>
+  <link rel="stylesheet" href="style.css"/>
+  <script defer src="js/products.js"></script>
+</head>
+<body>
+  
+
+  <header role="banner">
+    <h1 class="store-title">🛒 Salem's Store 🛒</h1>
+  </header>
+  <div class="search-container">
+    <input
+      type="text"
+      id="search-input"
+      placeholder="🔍 Search products…"
+      aria-label="Search products"
+    />
+  </div>
+
+  <main role="main">
+
+    <div id="spinner" class="spinner">
+
+    </div>
+
+    <div id="product-container" class="product-container">
+
+    </div>
+
+    <p id="error" class="error-message hidden">Failed to load products.</p>
+
+  </main>
+</body>
+</html>
